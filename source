@@ -4,13 +4,12 @@ _G.Settings = {
         ["Ignore Others"] = false
     },
     Meshes = {
-        Destroy = true,
-        LowDetail = false
+        ["Destroy"] = true,
+        ["LowDetail"] = false
     },
     Images = {
-        Invisible = false,
-        LowDetail = false,
-        Destroy = true,
+        ["LowDetail"] = false,
+        ["Destroy"] = true,
     },
     ["No Particles"] = true,
     ["No Camera Effects"] = true,
