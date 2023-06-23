@@ -1,3 +1,27 @@
+_G.Settings = {
+    Players = {
+        ["Ignore Me"] = true,
+        ["Ignore Others"] = false
+    },
+    Meshes = {
+        Destroy = true,
+        LowDetail = false
+    },
+    Images = {
+        Invisible = false,
+        LowDetail = false,
+        Destroy = true,
+    },
+    ["No Particles"] = true,
+    ["No Camera Effects"] = true,
+    ["No Explosions"] = true,
+    ["No Clothes"] = true,
+    ["Low Water Graphics"] = true,
+    ["No Shadows"] = true,
+    ["Low Rendering"] = true,
+    ["Low Quality Parts"] = true
+}
+
 local Players = game:GetService("Players")
 local BadInstances = {"DataModelMesh", "FaceInstance", "ParticleEmitter", "Trail", "Smoke", "Fire", "Sparkles", "PostEffect", "Explosion", "Clothing", "BasePart"}
 local CanBeEnabled = {"ParticleEmitter", "Trail", "Smoke", "Fire", "Sparkles", "PostEffect"}
