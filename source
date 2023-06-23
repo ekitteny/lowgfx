@@ -122,7 +122,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Text = "Loading Low GFX...",
     Icon = "rbxassetid://13803426588",
     Duration = math.huge,
-    Button1 = "⸸"
+    Button1 = "⁶⁶⁶"
 })
 local Descendants = ReturnDescendants()
 local WaitNumber = 500
@@ -131,7 +131,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Text = "Checking " .. #Descendants .. " Instances...",
     Icon = "rbxassetid://13803426588",
     Duration = 5,
-    Button1 = "⸸"
+    Button1 = "⁶⁶⁶"
 })
 for i, v in pairs(Descendants) do
     CheckIfBad(v)
@@ -142,10 +142,10 @@ for i, v in pairs(Descendants) do
     end
 end
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "⸸",
+    Title = "☥",
     Text = ".gg/cfgs",
     Icon = "rbxassetid://13127480811",
     Duration = math.huge,
-    Button1 = "⸮"
+    Button1 = "⁶⁶⁶"
 })
 game.DescendantAdded:Connect(CheckIfBad)
